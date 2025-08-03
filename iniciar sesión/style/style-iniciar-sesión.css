@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eef7;
+}
+
+main{
+    height: 80%;
+    min-width: 370px;
+}
+
+header{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+}
+
+.redes{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.btn-google{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-faceboock{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4776D0;
+}
+
+.iniciar{
+    background-color: rgb(255, 246, 246);
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.pf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    color: rgb(190, 190, 190);
+}
+
+.final{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.s input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.iniciar-sesión{
+    height: 10%;
+    background-color: #6A1B9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
