@@ -65,7 +65,7 @@ header{
 
 .iniciar{
     background-color: rgb(255, 246, 246);
-    height: 55%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@ input{
 }
 
 .final{
-    height: 10%;
+    height: 5%;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
