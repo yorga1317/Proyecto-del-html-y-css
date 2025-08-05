@@ -8,120 +8,162 @@
     <link rel="stylesheet" href="style/panel.css">
 </head>
 <body>
-
     <main>
-        <aside class="sidebar">
-            <div class="logo">
-                <h2>KanekiGarage</h2>
-            </div>
-            <nav>
-                <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Assets</a></li>
-                <li><a href="#">Booking</a></li>
-                <li><a href="#">Sell Cars</a></li>
-                <li><a href="#">Services</a></li>
-                </ul>
-            </nav>
-            <div class="settings">
-                <a href="#">Settings</a>
-                <a href="#">Log out</a>
-            </div>
-        </aside>
-
-        <header>
-            <form action="/buscar" method="get" class="search-bar">
-                <label for="busqueda" class="visually-hidden"><i class="fas fa-search"></i></label>
-                <input type="text" id="busqueda" name="q" placeholder="Search or type" />
-            </form>
-
-            <div>
-                <i class="fa-regular fa-bell"></i>
-
-                <a href="#">Iniciar sesión</a>
-            </div>
-        </header>
-
-        <section class="brands">
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/mazda.png" alt="Logo de Mazda">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/audi.png" alt="Logo de Audi">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/bugatti.png" alt="Logo de bugatti">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/mercedez.png" alt="Logo de mercedez">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/lamborghini.png" alt="lamborghini">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/ferrari.png" alt="Logo de Ferrari">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/pagani-logo3-scaled.webp" alt="Logo de Pagani">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/renault.png" alt="Logo de Renault">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/bmw.png" alt="Logo de BMW">
-                </figure>
-            </article>
-
-            <article class="brand-card">
-                <figure>
-                    <img src="style/img/ford.png" alt="Logo de Ford">
-                </figure>
-            </article>
+        <section class="sidebar">
+            <aside>
+                <div class="logo">
+                    <h2>KanekiGarage</h2>
+                </div>
+                <nav>
+                    <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Assets</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Sell Cars</a></li>
+                    <li><a href="#">Services</a></li>
+                    </ul>
+                </nav>
+                <div class="settings">
+                    <a href="#">Settings</a>
+                    <a href="#">Log out</a>
+                </div>
+            </aside>
         </section>
 
-        <section class="cars-card">
-            <article>
-                <a href="">
-                    <img src="" alt="carro">
-                </a>
-            </article>
+        <section class="main">
+             <section class="busqueda">
+                <header>
+                    <form action="/buscar" method="get" class="search-bar">
+                        <label for="busqueda" class="visually-hidden"><i class="fas fa-search"></i></label>
+                        <input type="text" id="busqueda" name="q" placeholder="Search or type" />
+                    </form>
 
-            <article>
-                <a href="">
-                    <img src="" alt="carro">
-                </a>
-            </article>
+                    <div>
+                        <i class="fa-regular fa-bell"></i>
 
-            <article>
-                <a href="">
-                    <img src="" alt="carro">
-                </a>
-            </article>
+                        <a href="#">Iniciar sesión</a>
+                    </div>
+                </header>
+            </section>
+
+            <section class="brands">
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/mazda.png" alt="Logo de Mazda">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/audi.png" alt="Logo de Audi">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/bugatti.png" alt="Logo de bugatti">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/mercedez.png" alt="Logo de mercedez">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/lamborghini.png" alt="lamborghini">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/ferrari.png" alt="Logo de Ferrari">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/pagani-logo3-scaled.webp" alt="Logo de Pagani">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/renault.png" alt="Logo de Renault">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/bmw.png" alt="Logo de BMW">
+                    </a>
+                </article>
+
+                <article class="brand-card">
+                    <a href="">
+                        <img src="style/img/ford.png" alt="Logo de Ford">
+                    </a>
+                </article>
+            </section>
+
+            <section class="cars">
+                
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/chiron.png" alt="carro">
+                        </a>
+                    </article class="cars-card">
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/Bugatti-Divo_4970_5c8e4c82e4964951974c1482c3a3947b_small.png" alt="carro">
+                        </a>
+                    </article>
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/Bugatti-La-Voiture-Noire-Prix-en-Tunisie-11-980x577.webp" alt="carro">
+                        </a>
+                    </article>
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/bmw.png" alt="carro">
+                        </a>
+                    </article class="cars-card">
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/pagani-logo3-scaled.webp" alt="carro">
+                        </a>
+                    </article>
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/lamborghini.png" alt="carro">
+                        </a>
+                    </article>
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/chiron.png" alt="carro">
+                        </a>
+                    </article class="cars-card">
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/Bugatti-Divo_4970_5c8e4c82e4964951974c1482c3a3947b_small.png" alt="carro">
+                        </a>
+                    </article>
+
+                    <article class="cars-card">
+                        <a href="">
+                            <img src="style/img/Bugatti-La-Voiture-Noire-Prix-en-Tunisie-11-980x577.webp" alt="carro">
+                        </a>
+                    </article>
+            </section>
         </section>
     </main>
 </body>
